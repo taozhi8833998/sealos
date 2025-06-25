@@ -46,7 +46,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             }
           : undefined
       }));
-    console.log(userInfo);
+    // console.log(userInfo);
+
     return jsonRes(res, {
       code: 200,
       message: 'Successfully',
